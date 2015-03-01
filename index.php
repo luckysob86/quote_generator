@@ -21,7 +21,6 @@
             </div>
             <div id="responseFieldDiv">
                 <p id="textField"></p>
-<!--                <div id="responseField"></div>-->
             </div>
             <button onclick="getQuotes()" type="button">Click Me</button>
         </div>
@@ -44,7 +43,6 @@ var getQuotes = function(){
             var elementCount = json["quotes"].length - 1;
             var num = randomIntFromInterval(0, elementCount);
             document.getElementById('textField').innerHTML=json["quotes"][num]["value"];
-//            console.log(json["quotes"][num]["value"] + "number: " + num);
         }
     }
     
