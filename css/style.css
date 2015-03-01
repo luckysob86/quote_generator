@@ -1,0 +1,68 @@
+#mowens {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+button {
+    float: left;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+#photoContainerDiv {
+    float: left;
+    margin-right: 5px;
+}
+
+#responseFieldDiv {
+    float: left;
+    height: 75px;
+    width: 420px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+}
+
+#responseFieldDiv p{    
+    font-family: Times New Roman, Times, serfif;
+    font-style: italic;
+    color: blue;
+}
+/*#responseField{
+    height: 140px;
+    margin-top: 5px;
+    margin-right: 5px;
+}*/
+#containerDiv {
+    height: 150px;
+    width:  600px;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+/*    padding-right: 10px;*/
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#bannerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width:  180px;
+}
+
+#paraDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width:  400px;
+}
+
